@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="priorities">
+        <item>Не выбрано</item>
+        <item>Низкий</item>
+        <item>Средний</item>
+        <item>Высокий</item>
+    </string-array>
+
+    <string-array name="units_array">
+        <item>Не выбрано</item>
+        <item>Мг</item>
+        <item>Г</item>
+        <item>Кг</item>
+    </string-array>
+
+    <string-array name="price_array">
+        <item>Не выбрано</item>
+        <item>RUB</item>
+        <item>USD</item>
+        <item>EUR</item>
+        <item>JPY</item>
+        <item>GBP</item>
+        <item>AUD</item>
+    </string-array>
+
+
+
+
+
+
+
+</resources>

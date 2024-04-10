@@ -1,0 +1,90 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/yourConstraintLayoutId"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<Button
+android:id="@+id/buttonexit"
+android:layout_width="74dp"
+android:layout_height="53dp"
+android:layout_marginStart="8dp"
+android:layout_marginTop="32dp"
+android:background="@android:color/transparent"
+android:drawableLeft="@drawable/back1"
+android:minHeight="48dp"
+android:text=""
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonHelp"
+        android:layout_width="77dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="4dp"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/help1"
+        android:minHeight="48dp"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonSort"
+        android:layout_width="79dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="180dp"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/sortic"
+        android:minHeight="48dp"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="417dp"
+        android:layout_height="575dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toTopOf="@id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/buttonSort"
+        app:layout_constraintVertical_bias="0.028" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="92dp"
+        android:layout_height="81dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/addb1"
+        android:minHeight="48dp"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+
+
+
+    <TextView
+android:id="@+id/textView2"
+android:layout_width="188dp"
+android:layout_height="43dp"
+android:layout_marginStart="8dp"
+android:layout_marginTop="130dp"
+android:text="Список дел"
+android:textSize="31sp"
+android:textStyle="bold"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

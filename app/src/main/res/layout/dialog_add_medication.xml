@@ -1,0 +1,134 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Информация о лекарстве"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginBottom="29dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Название лекарства:"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/etMedicationName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите название лекарства"
+        android:layout_marginBottom="8dp"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Тип лекарства:"
+        android:layout_marginBottom="8dp"
+        android:textStyle="bold"/>
+
+    <Spinner
+        android:id="@+id/spinnerMedicationType"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_height="wrap_content"
+        android:text="Дозировка:"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/etDosage"
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите дозировку лекарства"
+        android:inputType="text" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Дозировка единицы измерения:"
+        android:layout_marginBottom="8dp"
+        android:textStyle="bold"/>
+
+    <Spinner
+        android:id="@+id/spinnerDosageUnit"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Дата начала приема лекарства:"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/etStartDate"
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Нажмите дважды по экрану для открытия календаря"
+        android:inputType="date" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_height="wrap_content"
+        android:text="Дата окончания приема лекарства:"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/etEndDate"
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Нажмите дважды по экрану для открытия календаря"
+        android:inputType="date" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_height="wrap_content"
+        android:text="Сколько раз пить в день?"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/etFrequencyPerDay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:hint="Введите количество приемов в день"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Время приема:"
+        android:textStyle="bold"/>
+
+    <Spinner
+        android:id="@+id/spinnerTimeOfIntake"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"/>
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,95 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Информация о деле"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="28dp"
+        android:layout_marginBottom="29dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_height="wrap_content"
+        android:text="Название дела" />
+    <EditText
+        android:id="@+id/editTextTitle"
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите название дела"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_height="wrap_content"
+        android:text="Описание дела" />
+    <EditText
+        android:id="@+id/editTextDescription"
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите описание дела"/>
+
+    <TextView
+        android:layout_marginBottom="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Дата начала дела" />
+
+    <EditText
+        android:id="@+id/editTextStartDate"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_height="wrap_content"
+        android:hint="Нажмите дважды по экрану для открытия календаря"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_height="wrap_content"
+        android:text="Дата завершения дела" />
+    <EditText
+        android:id="@+id/editTextEndDate"
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Нажмите дважды по экрану для открытия календаря"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Категория" />
+    <Spinner
+        android:id="@+id/categorySpinner"
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_height="wrap_content"
+        android:text="Приоритетность" />
+    <Spinner
+        android:id="@+id/spinnerPriority"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
+</ScrollView>

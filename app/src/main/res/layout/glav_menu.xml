@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_8313"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttontablet"
+        android:layout_width="134dp"
+        android:layout_height="124dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="384dp"
+        android:alpha="0"
+        android:backgroundTint="#e2a600"
+
+        android:textColor="#5e4682"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonDela"
+        android:layout_width="136dp"
+        android:layout_height="124dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="168dp"
+        android:alpha="0"
+
+        android:backgroundTint="#e2a600"
+        android:text="Зарегистрироваться"
+        android:textColor="#5e4682"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.941"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonpokypki"
+        android:layout_width="125dp"
+        android:layout_height="106dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="156dp"
+        android:alpha="0"
+        android:backgroundTint="#e2a600"
+
+        android:textColor="#5e4682"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/settingsbutton"
+        android:layout_width="193dp"
+        android:layout_height="146dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="384dp"
+        android:alpha="0"
+        android:backgroundTint="#e2a600"
+
+        android:textColor="#5e4682"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.926"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

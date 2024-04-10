@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/buttonexit11"
+        android:layout_width="74dp"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Кнопка выхода"
+        android:drawableLeft="@drawable/back1"
+        android:minHeight="48dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/profileTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonexit11"
+        android:layout_marginTop="58dp"
+        android:text="Мой Профиль"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/emailTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profileTextView"
+        android:layout_marginTop="32dp"
+        android:text="Логин: "
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/userEmailTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emailTextView"
+        android:layout_marginTop="16dp"
+        android:text="Email: "
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/passwordTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/userEmailTextView"
+        android:layout_marginTop="16dp"
+        android:text="Пароль: "
+        android:textSize="20sp" />
+
+    <Switch
+        android:id="@+id/notificationsSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordTextView"
+        android:layout_marginTop="16dp"
+        android:checked="true"
+        android:text="Уведомления"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/notificationsSwitch"
+        android:layout_marginTop="32dp"
+        android:text="Выйти из аккаунта"
+        android:textSize="20sp"
+        android:backgroundTint="#f50029" />
+
+</RelativeLayout>

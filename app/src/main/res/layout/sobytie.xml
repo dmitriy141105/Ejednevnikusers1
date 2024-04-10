@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/buttonexit11"
+        android:layout_width="74dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Кнопка выхода"
+        android:drawableLeft="@drawable/back1"
+        android:minHeight="48dp"
+        android:text="" />
+
+    <TextView
+        android:layout_width="396dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="Список событий"
+        android:textSize="31sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/sort12"
+        android:layout_width="93dp"
+        android:layout_height="58dp"
+        android:layout_gravity="end"
+        android:background="@android:color/transparent"
+        android:drawableRight="@drawable/sortic"
+        android:text="Сортировать" />
+
+
+    <ListView
+        android:id="@+id/events_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/add_event_button"
+        android:layout_width="92dp"
+        android:layout_height="81dp"
+        android:layout_gravity="end"
+        android:layout_margin="16dp"
+        android:background="#00000000"
+        android:text="Button Text"
+        android:drawableRight="@drawable/addb1"
+        android:minHeight="48dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:drawablePadding="8dp" />
+
+</LinearLayout>

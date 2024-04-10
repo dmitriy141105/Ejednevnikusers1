@@ -1,0 +1,48 @@
+<!-- res/layout/dialog_edit_items.xml -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/editShopName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Название магазина"
+            android:padding="8dp" />
+
+        <!-- Список покупок для редактирования -->
+        <ListView
+            android:id="@+id/editListViewItems"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Кнопки для сохранения и отмены изменений -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonSaveChanges"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:backgroundTint="#f50029"
+                android:layout_height="wrap_content"
+                android:text="Сохранить изменения" />
+
+            <Button
+                android:id="@+id/buttonCancel"
+                android:backgroundTint="#f50029"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Отмена" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
